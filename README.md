@@ -55,7 +55,7 @@ dim_subscriptions      one row per customer
 fact_support_tickets   one row per ticket
 fact_usage_monthly     one row per customer per month
 Then joined all four into one flat analytical table with one row per customer.
-That table has 33 columns including things like tenure_days, engagement_tier,
+That table has 32 columns including things like tenure_days, engagement_tier,
 tickets_last90d, avg_monthly_logins, and the churned flag.
 
 What I found
